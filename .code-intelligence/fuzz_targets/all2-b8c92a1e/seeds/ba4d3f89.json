@@ -1,0 +1,19 @@
+{
+  "name": "ba4d3f89",
+  "fileName": ".",
+  "fileContent": null,
+  "requestChain": {
+    "requests": [
+      {
+        "method": "POST",
+        "uri": "/int_compare",
+        "headers": {
+        },
+        "contentType": "APPLICATION_JSON",
+        "body": "{}",
+        "isFixed": false,
+        "webControllerId": "-1391018797"
+      }
+    ]
+  }
+}

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a5873b6-5a35-43f1-b221-c95895df7c33" name="Default Changelist" comment="feat(CORE-738):">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-example/src/main/test/com/journaldev/spring/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebGoat/fuzz_targets/ci_build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../WebGoat/fuzz_targets/ci_build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebGoat/fuzz_targets/ci_info" beforeDir="false" afterPath="$PROJECT_DIR$/../WebGoat/fuzz_targets/ci_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebGoat/webgoat-lessons/insecure-login/src/main/java/org/owasp/webgoat/insecure_login/InsecureLoginTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebGoat/webgoat-lessons/insecure-login/src/main/java/org/owasp/webgoat/insecure_login/InsecureLoginTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz_targets/ci_build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz_targets/ci_build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzz_targets/ci_info" beforeDir="false" afterPath="$PROJECT_DIR$/fuzz_targets/ci_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gs-rest-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gs-rest-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/controller/CompareInstructionsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/controller/CompareInstructionsController.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rest-service" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gs-rest-service" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/lib/go-1.10" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="CORE-738_spring_boot_system_test" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UTUb4UHplnPFg7vTF6ek0Wc9yn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GO_FMT" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/hello" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fuzz_targets" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/hello" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fuzz_targets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="FuzzTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fuzzing.FuzzTarget" />
+      <module name="rest-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fuzzing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuzzTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.FuzzTarget" />
+      <module name="rest-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rest-service [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rest-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.rest-service [bootRun]" />
+        <item itemvalue="Application.FuzzTarget" />
+        <item itemvalue="Application.FuzzTarget" />
+        <item itemvalue="Gradle.rest-service [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a5873b6-5a35-43f1-b221-c95895df7c33" name="Default Changelist" comment="" />
+      <created>1575380146694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575380146694</updated>
+      <workItem from="1575380153149" duration="3741000" />
+      <workItem from="1575445031656" duration="4753000" />
+      <workItem from="1575459280582" duration="4143000" />
+      <workItem from="1575530768985" duration="4162000" />
+      <workItem from="1575567242535" duration="1251000" />
+      <workItem from="1575618122004" duration="988000" />
+      <workItem from="1575820493836" duration="722000" />
+      <workItem from="1575835414714" duration="301000" />
+      <workItem from="1575835798119" duration="621000" />
+      <workItem from="1575877639977" duration="7424000" />
+      <workItem from="1575922766470" duration="2500000" />
+      <workItem from="1575966381549" duration="4517000" />
+      <workItem from="1576049966573" duration="9358000" />
+      <workItem from="1576084804069" duration="19000" />
+      <workItem from="1576135551675" duration="4750000" />
+      <workItem from="1576179159032" duration="1240000" />
+      <workItem from="1576255003292" duration="2107000" />
+      <workItem from="1576398852817" duration="15433000" />
+      <workItem from="1576478432029" duration="6892000" />
+      <workItem from="1576581566415" duration="2000" />
+      <workItem from="1576595448639" duration="2760000" />
+      <workItem from="1576611232979" duration="1626000" />
+      <workItem from="1578762224287" duration="1780000" />
+      <workItem from="1578772319004" duration="4312000" />
+      <workItem from="1578815912588" duration="40000" />
+      <workItem from="1579371564187" duration="15026000" />
+      <workItem from="1579421472197" duration="3314000" />
+      <workItem from="1579679261530" duration="6519000" />
+      <workItem from="1579987784871" duration="4899000" />
+      <workItem from="1580032579909" duration="3897000" />
+      <workItem from="1580458625700" duration="12557000" />
+      <workItem from="1580504023549" duration="1460000" />
+      <workItem from="1580550988601" duration="1744000" />
+      <workItem from="1580720362517" duration="675000" />
+      <workItem from="1580800778723" duration="1421000" />
+      <workItem from="1580894676015" duration="26000" />
+      <workItem from="1584362393780" duration="11793000" />
+      <workItem from="1584526298540" duration="1000" />
+      <workItem from="1584715236231" duration="7169000" />
+      <workItem from="1584780224899" duration="1782000" />
+      <workItem from="1584952952026" duration="16437000" />
+      <workItem from="1585035749402" duration="2929000" />
+      <workItem from="1585832402508" duration="234000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added post controller to the spring boot example application">
+      <created>1579683639357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579683639357</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated nginx config for new campaigns store">
+      <created>1580464949623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580464949623</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(CORE-738): add spring boot system test">
+      <created>1584374196518</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584374196518</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(CORE-738): add spring boot system test">
+      <created>1584374542462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584374542462</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(CORE-738): add spring boot system test">
+      <created>1584374554901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584374554901</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat(CORE-738): add spring boot system test">
+      <created>1584374598641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584374598641</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(CORE-738): add spring boot system test">
+      <created>1584374619270</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584374619270</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(CORE-738): add spring boot system test">
+      <created>1584374947523</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584374947523</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(CORE-738): add spring boot system test">
+      <created>1584375258225</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584375258225</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix(CORE-738): simplify rest-service system test">
+      <created>1584969802387</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584969802387</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$USER_HOME$/.cache/bazel/_bazel_simon/34d7441ee02bad3141a22236794201d3/execroot/code_intelligence/bazel-out/k8-fastbuild/bin/api/local/v1/index.d.ts" />
+        <option value="$PROJECT_DIR$/../../core/bazel-bin/api/local/v1/analysis/index.d.ts" />
+        <option value="$PROJECT_DIR$/../../core/bazel-bin/api/local/v1/analysis/index.js" />
+        <option value="$PROJECT_DIR$/../../core/bazel-bin/api/types/index.d.ts" />
+        <option value="$PROJECT_DIR$/../../core/bazel-bin/api/types/index.js" />
+        <option value="$PROJECT_DIR$/../../core/bazel-bin/api/local/operations/index.d.ts" />
+        <option value="$PROJECT_DIR$/../../core/bazel-bin/api/local/operations/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added post controller to the spring boot example application" />
+    <MESSAGE value="updated nginx config for new campaigns store" />
+    <MESSAGE value="feat(CORE-738): add spring boot system test" />
+    <MESSAGE value="fix(CORE-738): simplify rest-service system test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(CORE-738): simplify rest-service system test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
+          <line>282</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
+          <line>293</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hello/Application.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java</url>
+          <line>4000</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java</url>
+          <line>533</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java</url>
+          <line>541</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hello/Application.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hello/Application.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hello/Application.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hello/Application.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,352 @@
+{
+  "name": "projects/rest-service-443e437c",
+  "displayName": "rest-service",
+  "buildScriptContent": "mvn clean package -DskipTests",
+  "details": {
+    "javaDetails": {
+      "jars": [
+        "gradle/wrapper/gradle-wrapper.jar",
+        "target/gs-rest-service-0.1.0.jar"
+      ],
+      "packages": [
+        "hello",
+        "hello.controller",
+        "hello.model",
+        "hello.service"
+      ]
+    },
+    "buildSystem": "MAVEN",
+    "javaWebAppDetails": {
+      "webApplications": [
+        {
+          "applicationName": "Application",
+          "package": "hello",
+          "artifact": "target/gs-rest-service-0.1.0.jar",
+          "controllers": [
+            "/int_compare",
+            "/pojo_mutation_list",
+            "/pojo_mutation_strings",
+            "/sql_injection",
+            "/string_compare",
+            "/system_test"
+          ],
+          "runArguments": [
+            ""
+          ],
+          "webControllerDb": {
+            "webControllerInfos": [
+              {
+                "method": "GET",
+                "uri": "/string_compare",
+                "requestParameter": [
+                  {
+                    "name": "name",
+                    "required": true,
+                    "className": "class java.lang.String"
+                  }
+                ],
+                "controllerClass": "hello.controller.CompareInstructionsController",
+                "handlerFunctionName": "crashOnString",
+                "handlerFunctionSignature": "public hello.model.Greeting hello.controller.CompareInstructionsController.crashOnString(java.lang.String)",
+                "id": "910159508"
+              },
+              {
+                "method": "POST",
+                "uri": "/int_compare",
+                "requestParameter": [
+                  {
+                    "name": "user",
+                    "required": true,
+                    "className": "class hello.model.User",
+                    "type": "REQUEST_BODY",
+                    "bodyPojoRepresentation": {
+                      "nestedObjects": [
+                        {
+                          "typeName": "hello.model.User",
+                          "fields": {
+                            "email": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "firstName": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "id": {
+                              "typeName": "java.lang.Integer",
+                              "isPrimitiveType": true
+                            },
+                            "jobs": {
+                              "typeName": "hello.model.Job",
+                              "fieldType": "ARRAY_TYPE"
+                            },
+                            "lastName": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            }
+                          }
+                        },
+                        {
+                          "typeName": "hello.model.Job",
+                          "fields": {
+                            "description": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "pay": {
+                              "typeName": "int",
+                              "isPrimitiveType": true
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "controllerClass": "hello.controller.CompareInstructionsController",
+                "handlerFunctionName": "crashOnInt",
+                "handlerFunctionSignature": "public hello.model.Greeting hello.controller.CompareInstructionsController.crashOnInt(hello.model.User)",
+                "id": "-1391018797"
+              },
+              {
+                "method": "GET",
+                "uri": "/sql_injection",
+                "requestParameter": [
+                  {
+                    "name": "name",
+                    "required": true,
+                    "className": "class java.lang.String"
+                  }
+                ],
+                "controllerClass": "hello.controller.InjectionController",
+                "handlerFunctionName": "searchVulnerable",
+                "handlerFunctionSignature": "public hello.model.User hello.controller.InjectionController.searchVulnerable(java.lang.String)",
+                "id": "828268863"
+              },
+              {
+                "method": "POST",
+                "uri": "/pojo_mutation_list",
+                "requestParameter": [
+                  {
+                    "name": "user",
+                    "required": true,
+                    "className": "class hello.model.User",
+                    "type": "REQUEST_BODY",
+                    "bodyPojoRepresentation": {
+                      "nestedObjects": [
+                        {
+                          "typeName": "hello.model.User",
+                          "fields": {
+                            "email": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "firstName": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "id": {
+                              "typeName": "java.lang.Integer",
+                              "isPrimitiveType": true
+                            },
+                            "jobs": {
+                              "typeName": "hello.model.Job",
+                              "fieldType": "ARRAY_TYPE"
+                            },
+                            "lastName": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            }
+                          }
+                        },
+                        {
+                          "typeName": "hello.model.Job",
+                          "fields": {
+                            "description": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "pay": {
+                              "typeName": "int",
+                              "isPrimitiveType": true
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "controllerClass": "hello.controller.PojoMutationController",
+                "handlerFunctionName": "crashOnMultipleListEntries",
+                "handlerFunctionSignature": "public hello.model.Greeting hello.controller.PojoMutationController.crashOnMultipleListEntries(hello.model.User)",
+                "id": "-1321520327"
+              },
+              {
+                "method": "POST",
+                "uri": "/pojo_mutation_strings",
+                "requestParameter": [
+                  {
+                    "name": "user",
+                    "required": true,
+                    "className": "class hello.model.User",
+                    "type": "REQUEST_BODY",
+                    "bodyPojoRepresentation": {
+                      "nestedObjects": [
+                        {
+                          "typeName": "hello.model.User",
+                          "fields": {
+                            "email": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "firstName": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "id": {
+                              "typeName": "java.lang.Integer",
+                              "isPrimitiveType": true
+                            },
+                            "jobs": {
+                              "typeName": "hello.model.Job",
+                              "fieldType": "ARRAY_TYPE"
+                            },
+                            "lastName": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            }
+                          }
+                        },
+                        {
+                          "typeName": "hello.model.Job",
+                          "fields": {
+                            "description": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "pay": {
+                              "typeName": "int",
+                              "isPrimitiveType": true
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "controllerClass": "hello.controller.PojoMutationController",
+                "handlerFunctionName": "crashOnMultipleStrings",
+                "handlerFunctionSignature": "public hello.model.Greeting hello.controller.PojoMutationController.crashOnMultipleStrings(hello.model.User)",
+                "id": "-1844663369"
+              },
+              {
+                "method": "POST",
+                "uri": "/system_test",
+                "requestParameter": [
+                  {
+                    "name": "user",
+                    "required": true,
+                    "className": "class hello.model.User",
+                    "type": "REQUEST_BODY",
+                    "bodyPojoRepresentation": {
+                      "nestedObjects": [
+                        {
+                          "typeName": "hello.model.User",
+                          "fields": {
+                            "email": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "firstName": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "id": {
+                              "typeName": "java.lang.Integer",
+                              "isPrimitiveType": true
+                            },
+                            "jobs": {
+                              "typeName": "hello.model.Job",
+                              "fieldType": "ARRAY_TYPE"
+                            },
+                            "lastName": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            }
+                          }
+                        },
+                        {
+                          "typeName": "hello.model.Job",
+                          "fields": {
+                            "description": {
+                              "typeName": "java.lang.String",
+                              "isPrimitiveType": true
+                            },
+                            "pay": {
+                              "typeName": "int",
+                              "isPrimitiveType": true
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "controllerClass": "hello.controller.SystemTestController",
+                "handlerFunctionName": "hiddenSqlInjection",
+                "handlerFunctionSignature": "public hello.model.Greeting hello.controller.SystemTestController.hiddenSqlInjection(hello.model.User)",
+                "id": "2047042661"
+              }
+            ],
+            "baseUrl": "http://127.0.0.1:8080"
+          }
+        }
+      ],
+      "projectExceptionPolicy": {
+        "policy": [
+          {
+            "enabled": true,
+            "responsePolicy": {
+              "responseMatcher": "CODE_STARTS_WITH",
+              "code": 2
+            }
+          },
+          {
+            "enabled": true,
+            "responsePolicy": {
+              "responseMatcher": "CODE_STARTS_WITH",
+              "code": 4
+            }
+          },
+          {
+            "enabled": true,
+            "responsePolicy": {
+              "code": 302
+            }
+          },
+          {
+            "enabled": true,
+            "exceptionPolicy": {
+              "Exception": "java.lang.IllegalArgumentException",
+              "exceptionStrategy": "STACKTRACE_CONTAINS",
+              "content": "org.springframework.web.util.UriComponentsBuilder"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "location": {
+    "pullScript": {
+
+    }
+  },
+  "projectEnvironment": {
+    "dockerBuild": {
+      "name": "maven:3.6.3-jdk-11"
+    },
+    "dockerRun": {
+      "name": "maven:3.6.3-jdk-11"
+    }
+  }
+}

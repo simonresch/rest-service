@@ -1,0 +1,18 @@
+{
+  "name": "all2-9faaae8e",
+  "displayName": "all2",
+  "maxRunTime": "1800s",
+  "fuzzTargets": [
+    "all2-b8c92a1e"
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "JAVA_LIBFUZZER",
+      "numberOfJobs": 1
+    },
+    {
+      "engine": "ZAP",
+      "numberOfJobs": 1
+    }
+  ]
+}
