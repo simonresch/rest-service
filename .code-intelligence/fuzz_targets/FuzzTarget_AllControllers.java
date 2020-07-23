@@ -17,7 +17,7 @@ import com.codeintelligence.static_analysis.EndpointDetection;
 import javax.annotation.PostConstruct;
 
 @Component
-public class FuzzTarget_system_test {
+public class FuzzTarget_AllControllers {
 
     @Autowired
     private WebApplicationContext _webCtx;
@@ -38,7 +38,12 @@ public class FuzzTarget_system_test {
         System.getProperties().put("logging.level.org.springframework", "error");
         System.getProperties().put("logging.level.org.springframework.web", "error");
         String[] springBootArgs = {};
-        Application.main(springBootArgs);
+        try {
+            Application.main(springBootArgs);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new RuntimeException("Failed to start application.");
+        }
         if (globalWebCtx == null) {
             throw new RuntimeException("Failed to run the @PostConstruct function.");
         }
@@ -46,15 +51,21 @@ public class FuzzTarget_system_test {
     }
 
     public static void main(String[] fuzzerArgs) {
+        String webControllerDBPath = null;
+        for (String arg : fuzzerArgs) {
+            if (arg.startsWith("--web-controller-db=")) {
+                webControllerDBPath = arg.replace("--web-controller-db=", "");
+            }
+        }
         fuzzerInitialize(fuzzerArgs);
-        if (fuzzerArgs.length > 0) {
+        if (webControllerDBPath != null) {
             try {
-                EndpointDetection.listEndpointsFromContext(globalWebCtx, fuzzerArgs[0]);
+                EndpointDetection.listEndpointsFromContext(globalWebCtx, webControllerDBPath);
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            fuzzerTearDown();
         }
-        fuzzerTearDown();
     }
 
     public static void fuzzerTearDown() {

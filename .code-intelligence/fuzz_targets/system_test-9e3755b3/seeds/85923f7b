@@ -1,1 +1,0 @@
-{"requests":[{"method":"GET","uri":"/controller1","contentType":"APPLICATION_JSON","body":"asdf","headers":{"foo":"bar"}}]}

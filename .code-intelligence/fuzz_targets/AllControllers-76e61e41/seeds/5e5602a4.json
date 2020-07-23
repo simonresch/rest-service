@@ -1,18 +1,18 @@
 {
-  "name": "868513df",
+  "name": "5e5602a4",
   "fileName": ".",
   "fileContent": null,
   "requestChain": {
     "requests": [
       {
         "method": "GET",
-        "uri": "/sql_injection?name=%FUZZ%",
+        "uri": "/string_compare?name=%FUZZ%",
         "headers": {
         },
         "contentType": "TEXT_HTML",
         "body": "",
         "isFixed": false,
-        "webControllerId": "828268863"
+        "webControllerId": "910159508"
       }
     ]
   }

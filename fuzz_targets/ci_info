@@ -1,6 +1,6 @@
 {
   "name": "projects/rest-service-443e437c",
-  "displayName": "rest-service",
+  "displayName": "rest-service-github",
   "buildScriptContent": "mvn clean package -DskipTests",
   "details": {
     "javaDetails": {
@@ -337,16 +337,20 @@
     }
   },
   "location": {
-    "pullScript": {
-
-    }
+    "localPath": "/home/simon/git/rest-service"
   },
   "projectEnvironment": {
     "dockerBuild": {
-      "name": "maven:3.6.3-jdk-11"
+      "name": "maven:3.6-jdk-11",
+      "auth": {
+
+      }
     },
     "dockerRun": {
-      "name": "maven:3.6.3-jdk-11"
+      "name": "maven:3.6-jdk-11",
+      "auth": {
+
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "testing-bb9d0f7b",
-  "displayName": "testing",
-  "path": "FuzzTarget_testing.java",
+  "name": "AllControllers-76e61e41",
+  "displayName": "AllControllers",
+  "path": "FuzzTarget_AllControllers.java",
   "runArguments": [
     "-DSpringGrammar"
   ],
@@ -11,12 +11,15 @@
       "package": "hello",
       "artifact": "target/gs-rest-service-0.1.0.jar",
       "controllers": [
-        "/string_compare",
         "/int_compare",
-        "/sql_injection",
         "/pojo_mutation_list",
         "/pojo_mutation_strings",
+        "/sql_injection",
+        "/string_compare",
         "/system_test"
+      ],
+      "runArguments": [
+        ""
       ]
     },
     "exceptionPolicy": {
@@ -56,6 +59,9 @@
     ],
     "instrumentationFilters": [
       "hello"
-    ]
+    ],
+    "api": {
+      "relativePath": ".code-intelligence/fuzz_targets/FuzzTarget_AllControllers.java"
+    }
   }
 }

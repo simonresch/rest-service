@@ -1,9 +1,9 @@
 {
-  "name": "test2-95b7e0be",
-  "displayName": "test2",
+  "name": "AllControllers-59145664",
+  "displayName": "AllControllers",
   "maxRunTime": "1800s",
   "fuzzTargets": [
-    "test2-b055886d"
+    "AllControllers-76e61e41"
   ],
   "fuzzerRunConfigurations": [
     {

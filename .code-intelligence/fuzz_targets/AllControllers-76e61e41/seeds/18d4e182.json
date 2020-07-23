@@ -1,18 +1,18 @@
 {
-  "name": "222f8672",
+  "name": "18d4e182",
   "fileName": ".",
   "fileContent": null,
   "requestChain": {
     "requests": [
       {
         "method": "POST",
-        "uri": "/pojo_mutation_list",
+        "uri": "/int_compare",
         "headers": {
         },
         "contentType": "APPLICATION_JSON",
         "body": "{}",
         "isFixed": false,
-        "webControllerId": "-1321520327"
+        "webControllerId": "-1391018797"
       }
     ]
   }
